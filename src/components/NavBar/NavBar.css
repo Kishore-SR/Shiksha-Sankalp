@@ -53,13 +53,16 @@
   gap: 20px;
 }
 
-.nav-item{
+.nav-item {
   gap: 6px;
   transition: all 0.2s;
 }
 
-.nav-item:hover{
+.nav-item:hover {
   color: gray;
+}
+.lang-mobile {
+  display: none;
 }
 /* ====== Mobile Bottom Navbar ====== */
 .bottom-navbar {
@@ -78,17 +81,17 @@
   font-size: 0.8rem;
 }
 
-.nav-item.active{
+.nav-item.active {
   font-weight: bold;
 }
 .nav-item.active[href="/"] {
-  color: #05b305 !important; 
+  color: #05b305 !important;
 }
 .nav-item.active[href="/explore"] {
-  color: #007bff !important; 
+  color: #007bff !important;
 }
 .nav-item.active[href="/tools"] {
-  color: #f59f00 !important; 
+  color: #f59f00 !important;
 }
 
 .nav-item.active i {
@@ -96,9 +99,15 @@
 }
 
 @keyframes rotateStar {
-  0% { transform: rotate(0deg) scale(1); }
-  50% { transform: rotate(10deg) scale(1.2); }
-  100% { transform: rotate(0deg) scale(1); }
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(10deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
 }
 
 /* Hide bottom navbar in desktop */
@@ -110,6 +119,9 @@
 
 /* Hide top navbar in mobile */
 @media (max-width: 767px) {
+  .lang-mobile {
+    display: block;
+  }
   .top-navbar {
     display: none;
   }

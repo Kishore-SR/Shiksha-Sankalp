@@ -1,8 +1,11 @@
+.lang-mobile{
+  display: none;
+}
 @media (max-width: 767px) {
     .home-title {
       display: flex;
       align-items: center;
-      justify-content: flex-start;
+      justify-content: space-between;
       padding: 6px 16px;
       position: fixed;
       top: 0;
@@ -20,5 +23,14 @@
     }
     .home-title img {
       height: 32px;
+    }
+    .title-flex{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .lang-mobile{
+      display: block;
+      margin-right: 2rem;
     }
 }  

@@ -2,11 +2,11 @@
 .hero-section {
   background: radial-gradient(
       70.11% 70.11% at 50% 50%,
-      rgb(134, 255, 109) 0%,
-      rgb(103, 212, 81) 32.99%,
-      rgb(88, 191, 67) 60.59%
+      rgb(173, 216, 255) 0%,  /* Lighter blue */
+      rgb(135, 190, 255) 32.99%,  /* Medium blue */
+      rgb(102, 163, 255) 60.59%  /* Slightly darker blue */
     ),
-    rgb(88, 191, 67);
+    rgb(102, 163, 255);
   background-size: 100% 100%;
   animation: gradientRotate 0.5s ease infinite;
   margin: 2% 8%;
@@ -31,6 +31,7 @@
     background-position: 0% 50%;
   }
 }
+
 
 .left-content {
   flex: 2;
@@ -154,7 +155,7 @@
 .step-number {
   width: 40px;
   height: 40px;
-  background: rgb(134, 255, 109);
+  background: #66a3ff;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -294,9 +295,6 @@
   }
 }
 
-.step-img {
-  animation: float 3s ease-in-out infinite;
-}
 
 @keyframes float {
   0%,

@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { ClerkProvider } from '@clerk/clerk-react';
 import { App } from './App.jsx';
 import './index.css';
+import "./i18n"; 
 
 const clerkFrontendApi = import.meta.env.VITE_CLERK_FRONTEND_API;
 const clerkPubKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
