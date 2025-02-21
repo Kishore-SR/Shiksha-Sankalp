@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/NavBar/NavBar";
 import { Home } from "./pages/Home/Home";
+import Meeting from "./pages/Meeting/Meeting";
 import {Stories} from "./pages/Stories/Stories";
 import  {Dashboard}  from "./pages/Dashboard/Dashboard";
 import { HelmetProvider } from "react-helmet-async";
@@ -18,6 +19,7 @@ export const App = () => {
         <div>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/meeting" element={<Meeting/> }/>
             <Route path="/stories" element={<Stories />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/login" element={<Login />} />

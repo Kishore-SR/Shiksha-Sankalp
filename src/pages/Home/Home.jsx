@@ -47,8 +47,8 @@ export const Home = () => {
             <h1>{t("heroTitle")}</h1>
             <h2>{t("heroSubtitle")}</h2>
             <p>{t("heroDescription")}</p>
-            <Link to="/explore" className="cta-button">
-              {t("ctaButton")}
+            <Link to="/meeting" className="cta-button">
+              {t("ctaButton")} <i class="ri-live-fill"></i>
             </Link>
           </div>
           <div className="right-content">
