@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useUser, UserButton } from "@clerk/clerk-react";
+import { useTranslation } from "react-i18next"; 
 import "./NavBar.css";
 import { Language } from "../Language/Language";
 
@@ -8,6 +9,7 @@ export const Navbar = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const { isSignedIn, user } = useUser();
+  const { t } = useTranslation(); 
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -19,7 +21,7 @@ export const Navbar = () => {
       <nav className="top-navbar">
         <div className="logo-title">
           <img src="/logo.svg" alt="Logo" className="logo" />
-          <span className="title">Shiksha Sankalp</span>
+          <span className="title">{t("appTitle")}</span> 
         </div>
         <div className="nav-links">
           <Link
@@ -27,40 +29,33 @@ export const Navbar = () => {
             className={`nav-item ${location.pathname === "/" ? "active" : ""}`}
           >
             <i className="ri-home-5-line"></i>
-            <span>Home</span>
+            <span>{t("home")}</span> 
           </Link>
           <Link
             to="/stories"
-            className={`nav-item ${
-              location.pathname === "/stories" ? "active" : ""
-            }`}
+            className={`nav-item ${location.pathname === "/stories" ? "active" : ""}`}
           >
             <i className="ri-search-line"></i>
-            <span>Stories</span>
+            <span>{t("stories")}</span> 
           </Link>
           <Link
             to="/dashboard"
-            className={`nav-item ${
-              location.pathname === "/dashboard" ? "active" : ""
-            }`}
+            className={`nav-item ${location.pathname === "/dashboard" ? "active" : ""}`}
           >
             <i className="ri-function-add-line"></i>
-            <span>Dashboard</span>
+            <span>{t("dashboard")}</span> 
           </Link>
 
           {/* Profile Link */}
           {isSignedIn ? (
-            <div
-              className="nav-item"
-              style={{ display: "flex", alignItems: "center", gap: "5px" }}
-            >
+            <div className="nav-item" style={{ display: "flex", alignItems: "center", gap: "5px" }}>
               <UserButton />
               <span>{user.firstName}</span>
             </div>
           ) : (
             <div className="nav-item" onClick={() => navigate("/login")}>
               <i className="ri-user-star-line"></i>
-              <span>Profile</span>
+              <span>{t("profile")}</span> 
             </div>
           )}
 
@@ -75,40 +70,33 @@ export const Navbar = () => {
           className={`nav-item ${location.pathname === "/" ? "active" : ""}`}
         >
           <i className="ri-home-5-line"></i>
-          <span>Home</span>
+          <span>{t("home")}</span> 
         </Link>
         <Link
           to="/stories"
-          className={`nav-item ${
-            location.pathname === "/stories" ? "active" : ""
-          }`}
+          className={`nav-item ${location.pathname === "/stories" ? "active" : ""}`}
         >
           <i className="ri-search-line"></i>
-          <span>Stories</span>
+          <span>{t("stories")}</span> 
         </Link>
         <Link
           to="/dashboard"
-          className={`nav-item ${
-            location.pathname === "/dashboard" ? "active" : ""
-          }`}
+          className={`nav-item ${location.pathname === "/dashboard" ? "active" : ""}`}
         >
           <i className="ri-function-add-line"></i>
-          <span>Dashboard</span>
+          <span>{t("dashboard")}</span> 
         </Link>
 
         {/* Profile Link */}
         {isSignedIn ? (
-          <div
-            className="nav-item"
-            style={{ display: "flex", alignItems: "center", gap: "0" }}
-          >
+          <div className="nav-item" style={{ display: "flex", alignItems: "center", gap: "0" }}>
             <UserButton />
             <span>{user.firstName}</span>
           </div>
         ) : (
           <div className="nav-item" onClick={() => navigate("/login")}>
             <i className="ri-user-star-line"></i>
-            <span>Profile</span>
+            <span>{t("profile")}</span> 
           </div>
         )}
       </nav>

@@ -1,14 +1,19 @@
 {
-    "heroTitle": "Empowering Education, One Story at a Time",
-    "heroSubtitle": "Shiksha Chaupal: Stories from the Ground",
-    "heroDescription": "Grassroots women’s collectives are transforming education equity for young girls. Discover their untold stories and join the movement to amplify their impact.",
-    "ctaButton": "Explore Stories",
-    "missionTitle": "Our Mission",
-    "step1Title": "Document Stories",
-    "step1Description": "Capture the inspiring efforts of grassroots women’s collectives in improving education equity.",
-    "step2Title": "Amplify Impact",
-    "step2Description": "Increase visibility and secure funding for these initiatives to scale their impact.",
-    "step3Title": "Foster Collaboration",
-    "step3Description": "Connect grassroots groups to share knowledge and grow collectively.",
-    "learnMore": "Learn More"
-  }
+  "appTitle": "Shiksha Sankalp",
+  "home": "Home",
+  "stories": "Stories",
+  "dashboard": "Dashboard",
+  "profile": "Profile",
+  "heroTitle": "Empowering Education, One Story at a Time",
+  "heroSubtitle": "Shiksha Chaupal: Stories from the Ground",
+  "heroDescription": "Grassroots women’s collectives are transforming education equity for young girls. Discover their untold stories and join the movement to amplify their impact.",
+  "ctaButton": "Explore Stories",
+  "missionTitle": "Our Mission",
+  "step1Title": "Document Stories",
+  "step1Description": "Capture the inspiring efforts of grassroots women’s collectives in improving education equity.",
+  "step2Title": "Amplify Impact",
+  "step2Description": "Increase visibility and secure funding for these initiatives to scale their impact.",
+  "step3Title": "Foster Collaboration",
+  "step3Description": "Connect grassroots groups to share knowledge and grow collectively.",
+  "learnMore": "Learn More"
+}

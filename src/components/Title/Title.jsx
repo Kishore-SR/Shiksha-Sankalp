@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Title.css";
 import { useTranslation } from "react-i18next";
 
 export const Title = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const [selectedLanguage, setSelectedLanguage] = useState(
+    localStorage.getItem("language") || "en"
+  );
 
-  // Function to change language
+  useEffect(() => {
+    i18n.changeLanguage(selectedLanguage);
+  }, [selectedLanguage, i18n]);
+
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
+    localStorage.setItem("language", lng);
+    setSelectedLanguage(lng);
   };
 
   return (
@@ -15,11 +23,14 @@ export const Title = () => {
       <div className="home-title">
         <div className="title-flex">
           <img src="/logo.svg" alt="Logo" className="logo" />
-          <span className="title">Shiksha Sankalp</span>
+          <span className="title">{t("appTitle")}</span> 
         </div>
 
         <div className="language-dropdown lang-mobile">
-          <select onChange={(e) => changeLanguage(e.target.value)}>
+          <select
+            value={selectedLanguage}
+            onChange={(e) => changeLanguage(e.target.value)}
+          >
             <option value="en">English</option>
             <option value="hi">हिंदी</option>
             <option value="kn">ಕನ್ನಡ</option>
