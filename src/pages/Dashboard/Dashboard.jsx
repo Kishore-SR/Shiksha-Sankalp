@@ -14,7 +14,7 @@ import {
 } from "chart.js";
 import { Title } from "../../components/Title/Title";
 import { supabase } from "../../server/supabaseClient";
-import { useTranslation } from "react-i18next"; \
+import { useTranslation } from "react-i18next"; 
 import "./Dashboard.css";
 
 // Register Chart.js components
