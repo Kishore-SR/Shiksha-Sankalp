@@ -1,7 +1,7 @@
 {
   "appTitle": "Shiksha Sankalp",
   "home": "Home",
-  "reports": "Reports",
+  "reports-nav": "Reports",
   "dashboard": "Dashboard",
   "profile": "Profile",
   "heroTitle": "Empowering Education, One Story at a Time",
@@ -15,5 +15,23 @@
   "step2Description": "Increase visibility and secure funding for these initiatives to scale their impact.",
   "step3Title": "Foster Collaboration",
   "step3Description": "Connect grassroots groups to share knowledge and grow collectively.",
-  "learnMore": "Learn More"
+  "learnMore": "Learn More",
+  
+"reports": {
+    "title": "Shiksha Chaupal: Reports from the Ground",
+    "description": "Grassroots women’s collectives are making a difference in education equity. Share your report or feedback to help us improve.",
+    "form": {
+      "place": "Place",
+      "school_name": "School Name",
+      "problem_faced": "Problem Faced (Why girls are not coming to school)",
+      "solution_approach": "Solution Approach",
+      "submit": "Submit"
+    },
+    "report_card": {
+      "place": "Place",
+      "problem": "Problem",
+      "solution": "Solution"
+    }
+  }
+
 }

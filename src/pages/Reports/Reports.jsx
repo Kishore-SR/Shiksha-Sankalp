@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { supabase } from "../../server/supabaseClient";
+import { Title } from "../../components/Title/Title";
+import { useTranslation } from "react-i18next"; 
 import "./Reports.css";
 
 const Reports = () => {
@@ -10,6 +12,8 @@ const Reports = () => {
     problem_faced: "",
     solution_approach: "",
   });
+
+  const { t } = useTranslation();
 
   // Fetch reports from Supabase
   const fetchReports = async () => {
@@ -40,24 +44,22 @@ const Reports = () => {
         problem_faced: "",
         solution_approach: "",
       });
-      fetchReports(); // Refresh the list of reports
+      fetchReports(); 
     }
   };
 
   return (
+    <>
+    <Title/>
     <div className="reports-container">
-      <h1>Shiksha Chaupal: Reports from the Ground</h1>
-      <p>
-        Grassroots women’s collectives are making a difference in education
-        equity. Share your report or feedback to help us improve.
-      </p>
+      <h1>{t("reports.title")}</h1>
+      <p>{t("reports.description")}</p>
 
-      {/* Feedback Form */}
       <form onSubmit={handleSubmit} className="feedback-form">
         <input
           type="text"
           name="place"
-          placeholder="Place"
+          placeholder={t("reports.form.place")}
           value={formData.place}
           onChange={handleInputChange}
           required
@@ -65,26 +67,26 @@ const Reports = () => {
         <input
           type="text"
           name="school_name"
-          placeholder="School Name"
+          placeholder={t("reports.form.school_name")}
           value={formData.school_name}
           onChange={handleInputChange}
           required
         />
         <textarea
           name="problem_faced"
-          placeholder="Problem Faced (Why girls are not coming to school)"
+          placeholder={t("reports.form.problem_faced")}
           value={formData.problem_faced}
           onChange={handleInputChange}
           required
         />
         <textarea
           name="solution_approach"
-          placeholder="Solution Approach"
+          placeholder={t("reports.form.solution_approach")}
           value={formData.solution_approach}
           onChange={handleInputChange}
           required
         />
-        <button type="submit">Submit</button>
+        <button type="submit">{t("reports.form.submit")}</button>
       </form>
 
       {/* Display Reports */}
@@ -92,13 +94,14 @@ const Reports = () => {
         {reports.map((report) => (
           <div key={report.id} className="report-card">
             <h3>{report.school_name}</h3>
-            <p><strong>Place:</strong> {report.place}</p>
-            <p><strong>Problem:</strong> {report.problem_faced}</p>
-            <p><strong>Solution:</strong> {report.solution_approach}</p>
+            <p><strong>{t("reports.report_card.place")}:</strong> {report.place}</p>
+            <p><strong>{t("reports.report_card.problem")}:</strong> {report.problem_faced}</p>
+            <p><strong>{t("reports.report_card.solution")}:</strong> {report.solution_approach}</p>
           </div>
         ))}
       </div>
     </div>
+    </>
   );
 };
 

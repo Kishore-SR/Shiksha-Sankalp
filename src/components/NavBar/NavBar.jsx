@@ -36,7 +36,7 @@ export const Navbar = () => {
             className={`nav-item ${location.pathname === "/reports" ? "active" : ""}`}
           >
             <i className="ri-search-line"></i>
-            <span>{t("reports")}</span> 
+            <span>{t("reports-nav")}</span> 
           </Link>
           <Link
             to="/dashboard"
@@ -77,7 +77,7 @@ export const Navbar = () => {
           className={`nav-item ${location.pathname === "/reports" ? "active" : ""}`}
         >
           <i className="ri-search-line"></i>
-          <span>{t("reports")}</span> 
+          <span>{t("reports-nav")}</span> 
         </Link>
         <Link
           to="/dashboard"
