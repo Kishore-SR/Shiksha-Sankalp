@@ -4,9 +4,9 @@
   "reports-nav": "Reports",
   "dashboard": "Dashboard",
   "profile": "Profile",
-  "heroTitle": "Empowering Education, One Story at a Time",
-  "heroSubtitle": "Shiksha Chaupal: Stories from the Ground",
-  "heroDescription": "Grassroots women’s collectives are transforming education equity for young girls. Discover their untold stories and join the movement to amplify their impact.",
+  "heroTitle": "Empowering Girls Through Education",
+  "heroSubtitle": "Shiksha Chaupal: Stories from Villages Across India",
+  "heroDescription": "Every village has a story. Discover how grassroots efforts are helping more girls go to school. Join us to make a difference in their lives.",
   "ctaButton": "Join Meeting",
   "missionTitle": "Our Mission",
   "step1Title": "Document Stories",
@@ -18,8 +18,8 @@
   "learnMore": "Learn More",
   
 "reports": {
-    "title": "Shiksha Chaupal: Reports from the Ground",
-    "description": "Grassroots women’s collectives are making a difference in education equity. Share your report or feedback to help us improve.",
+    "title": "Share Your Village's Story",
+    "description": "Your reports help us understand why girls are missing school. Together, we can find solutions to improve enrollment across India.",
     "form": {
       "place": "Place",
       "school_name": "School Name",
