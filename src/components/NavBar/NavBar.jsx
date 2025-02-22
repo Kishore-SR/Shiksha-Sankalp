@@ -42,8 +42,8 @@ export const Navbar = () => {
             to="/dashboard"
             className={`nav-item ${location.pathname === "/dashboard" ? "active" : ""}`}
           >
-            <i class="ri-bar-chart-2-line"></i>
-            <span>{t("dashboard")}</span> 
+            <i class="ri-bar-chart-box-line"></i>
+            <span>{t("dashboard-nav")}</span> 
           </Link>
 
           {/* Profile Link */}
@@ -83,8 +83,8 @@ export const Navbar = () => {
           to="/dashboard"
           className={`nav-item ${location.pathname === "/dashboard" ? "active" : ""}`}
         >
-          <i class="ri-bar-chart-2-line"></i>
-          <span>{t("dashboard")}</span> 
+          <i class="ri-bar-chart-box-line"></i>
+          <span>{t("dashboard-nav")}</span> 
         </Link>
 
         {/* Profile Link */}

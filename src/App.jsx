@@ -4,7 +4,7 @@ import { Navbar } from "./components/NavBar/NavBar";
 import { Home } from "./pages/Home/Home";
 import Meeting from "./pages/Meeting/Meeting";
 import Reports from "./pages/Reports/Reports";
-import  {Dashboard}  from "./pages/Dashboard/Dashboard";
+import Dashboard from "./pages/Dashboard/Dashboard";
 import { HelmetProvider } from "react-helmet-async";
 import Register from "./pages/Register";
 import { About } from "./pages/About/About";

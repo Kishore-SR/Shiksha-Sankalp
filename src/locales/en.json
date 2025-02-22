@@ -2,7 +2,7 @@
   "appTitle": "Shiksha Sankalp",
   "home": "Home",
   "reports-nav": "Reports",
-  "dashboard": "Dashboard",
+  "dashboard-nav": "Dashboard",
   "profile": "Profile",
   "heroTitle": "Empowering Girls Through Education",
   "heroSubtitle": "Shiksha Chaupal: Stories from Villages Across India",
@@ -16,8 +16,7 @@
   "step3Title": "Foster Collaboration",
   "step3Description": "Connect grassroots groups to share knowledge and grow collectively.",
   "learnMore": "Learn More",
-  
-"reports": {
+  "reports": {
     "title": "Share Your Village's Story",
     "description": "Your reports help us understand why girls are missing school. Together, we can find solutions to improve enrollment across India.",
     "form": {
@@ -35,11 +34,20 @@
     "traveling_issue": "Girls face traveling issues due to lack of safe transportation.",
     "traveling_solution": "We are working with local authorities to provide safe bus services for girls.",
     "toilet_issue": "Lack of clean toilets for girls in the school.",
-    "toilet_solution": "We have arranged separate cleaning staff for girls' toilets and raised awareness among students.",
+    "toilet_solution": "We have arranged separate cleaning staff for girls toilets and raised awareness among students.",
     "misbehavior_issue": "Misbehavior by teachers towards girls is a major concern.",
     "misbehavior_solution": "We have initiated teacher training programs to promote gender sensitivity and respectful behavior.",
     "relationship_issue": "Inappropriate relationships between boys and girls are causing problems.",
     "relationship_solution": "We have started awareness programs for students and parents."
+  },
+  "dashboard": {
+    "title": "Data Dashboard",
+    "description": "This page is for Government officers, NGOs and committees to understand the data points to solve problems strategically.",
+    "mostCommonIssues": "Most Common Issues",
+    "proposedSolutions": "Proposed Solutions",
+    "trendsOverTime": "Trends Over Time",
+    "dropoutRatesByState": "Dropout Rates by State",
+    "enrollmentRatesOverTime": "Enrollment Rates Over Time",
+    "girlsToBoysRatio": "Girls to Boys Ratio"
   }
-
 }
