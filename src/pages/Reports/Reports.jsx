@@ -52,7 +52,7 @@ const Reports = () => {
         problem_faced: "",
         solution_approach: "",
       });
-      fetchReports(); // Refresh the list of reports
+      fetchReports(); 
     }
   };
 
@@ -101,24 +101,26 @@ const Reports = () => {
         {/* Display Reports */}
         <div className="reports-grid">
           {loading ? (
-            <Loader/>
+            <Loader />
           ) : reports.length > 0 ? (
             reports.map((report) => (
               <div key={report.id} className="report-card">
                 <h3>{report.school_name}</h3>
                 <p>
-                  <strong>{t("reports.report_card.place")}:</strong> {report.place}
+                  <strong><i class="ri-map-pin-2-line"></i> {t("reports.report_card.place")}:</strong> {report.place}
                 </p>
                 <p>
-                  <strong>{t("reports.report_card.problem")}:</strong> {report.problem_faced}
+                  <strong><i class="ri-megaphone-line"></i> {t("reports.report_card.problem")}:</strong>{" "}
+                  {t(report.problem_faced)} 
                 </p>
                 <p>
-                  <strong>{t("reports.report_card.solution")}:</strong> {report.solution_approach}
+                  <strong><i class="ri-bookmark-3-line"></i> {t("reports.report_card.solution")}:</strong>{" "}
+                  {t(report.solution_approach)}
                 </p>
               </div>
             ))
           ) : (
-            <p>No reports found.</p> // Fallback if no reports are available
+            <p>{t("reports.no_reports")}</p> 
           )}
         </div>
       </div>

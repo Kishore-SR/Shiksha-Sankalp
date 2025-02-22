@@ -88,15 +88,16 @@
 
 .nav-item.active[href="/"], .nav-item.active[href="/reports"], .nav-item.active[href="/dashboard"] {
   color: #007bff !important;
-  background-color: rgb(213, 231, 255);
-  padding: 2px 6px;
-  border-radius: 10px;
 }
 
 .nav-item.active i {
   animation: rotateStar 0.5s ease-in-out;
 }
-
+.nav-item.active span{
+  background-color: rgb(213, 231, 255);
+  padding: 2px 6px;
+  border-radius: 10px;
+}
 @keyframes rotateStar {
   0% {
     transform: rotate(0deg) scale(1);

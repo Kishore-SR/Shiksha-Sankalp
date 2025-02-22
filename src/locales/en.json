@@ -31,7 +31,15 @@
       "place": "Place",
       "problem": "Problem",
       "solution": "Solution"
-    }
+    },
+    "traveling_issue": "Girls face traveling issues due to lack of safe transportation.",
+    "traveling_solution": "We are working with local authorities to provide safe bus services for girls.",
+    "toilet_issue": "Lack of clean toilets for girls in the school.",
+    "toilet_solution": "We have arranged separate cleaning staff for girls' toilets and raised awareness among students.",
+    "misbehavior_issue": "Misbehavior by teachers towards girls is a major concern.",
+    "misbehavior_solution": "We have initiated teacher training programs to promote gender sensitivity and respectful behavior.",
+    "relationship_issue": "Inappropriate relationships between boys and girls are causing problems.",
+    "relationship_solution": "We have started awareness programs for students and parents."
   }
 
 }

@@ -35,14 +35,14 @@ export const Navbar = () => {
             to="/reports"
             className={`nav-item ${location.pathname === "/reports" ? "active" : ""}`}
           >
-            <i className="ri-search-line"></i>
+            <i class="ri-bookmark-line"></i>
             <span>{t("reports-nav")}</span> 
           </Link>
           <Link
             to="/dashboard"
             className={`nav-item ${location.pathname === "/dashboard" ? "active" : ""}`}
           >
-            <i className="ri-function-add-line"></i>
+            <i class="ri-bar-chart-2-line"></i>
             <span>{t("dashboard")}</span> 
           </Link>
 
@@ -76,14 +76,14 @@ export const Navbar = () => {
           to="/reports"
           className={`nav-item ${location.pathname === "/reports" ? "active" : ""}`}
         >
-          <i className="ri-search-line"></i>
+          <i class="ri-bookmark-line"></i>
           <span>{t("reports-nav")}</span> 
         </Link>
         <Link
           to="/dashboard"
           className={`nav-item ${location.pathname === "/dashboard" ? "active" : ""}`}
         >
-          <i className="ri-function-add-line"></i>
+          <i class="ri-bar-chart-2-line"></i>
           <span>{t("dashboard")}</span> 
         </Link>
 
