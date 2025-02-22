@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/NavBar/NavBar";
 import { Home } from "./pages/Home/Home";
 import Meeting from "./pages/Meeting/Meeting";
-import {Stories} from "./pages/Stories/Stories";
+import Reports from "./pages/Reports/Reports";
 import  {Dashboard}  from "./pages/Dashboard/Dashboard";
 import { HelmetProvider } from "react-helmet-async";
-import Login from "./pages/Login";
+import Register from "./pages/Register";
 import { About } from "./pages/About/About";
 import {PrivacyPolicy} from "./pages/Legal/PrivacyPolicy";
 import {TermsOfService} from "./pages/Legal/TermsOfService";
@@ -20,9 +20,9 @@ export const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/meeting" element={<Meeting/> }/>
-            <Route path="/stories" element={<Stories />} />
+            <Route path="/reports" element={<Reports />} />
             <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
             <Route path="/about" element={<About />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/terms" element={<TermsOfService />} />

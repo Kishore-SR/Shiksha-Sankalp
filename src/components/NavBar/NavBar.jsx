@@ -32,11 +32,11 @@ export const Navbar = () => {
             <span>{t("home")}</span> 
           </Link>
           <Link
-            to="/stories"
-            className={`nav-item ${location.pathname === "/stories" ? "active" : ""}`}
+            to="/reports"
+            className={`nav-item ${location.pathname === "/reports" ? "active" : ""}`}
           >
             <i className="ri-search-line"></i>
-            <span>{t("stories")}</span> 
+            <span>{t("reports")}</span> 
           </Link>
           <Link
             to="/dashboard"
@@ -53,7 +53,7 @@ export const Navbar = () => {
               <span>{user.firstName}</span>
             </div>
           ) : (
-            <div className="nav-item" onClick={() => navigate("/login")}>
+            <div className="nav-item" onClick={() => navigate("/register")}>
               <i className="ri-user-star-line"></i>
               <span>{t("profile")}</span> 
             </div>
@@ -73,11 +73,11 @@ export const Navbar = () => {
           <span>{t("home")}</span> 
         </Link>
         <Link
-          to="/stories"
-          className={`nav-item ${location.pathname === "/stories" ? "active" : ""}`}
+          to="/reports"
+          className={`nav-item ${location.pathname === "/reports" ? "active" : ""}`}
         >
           <i className="ri-search-line"></i>
-          <span>{t("stories")}</span> 
+          <span>{t("reports")}</span> 
         </Link>
         <Link
           to="/dashboard"
@@ -94,7 +94,7 @@ export const Navbar = () => {
             <span>{user.firstName}</span>
           </div>
         ) : (
-          <div className="nav-item" onClick={() => navigate("/login")}>
+          <div className="nav-item" onClick={() => navigate("/register")}>
             <i className="ri-user-star-line"></i>
             <span>{t("profile")}</span> 
           </div>
