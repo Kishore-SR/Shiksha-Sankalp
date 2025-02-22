@@ -9,16 +9,16 @@
   "heroDescription": "Every village has a story. Discover how grassroots efforts are helping more girls go to school. Join us to make a difference in their lives.",
   "ctaButton": "Join Meeting",
   "missionTitle": "Our Mission",
-"step1Title": "Document Stories",
-"step1Description": "Capture the inspiring work of women’s groups fighting for equal education.",
-"step2Title": "Amplify Impact",
-"step2Description": "Help these groups get noticed and funded to grow their efforts.",
-"step3Title": "Build Connections",
-"step3Description": "Bring grassroots groups together to share ideas and grow stronger.",
+  "step1Title": "Document Stories",
+  "step1Description": "Capture the inspiring work of women’s groups fighting for equal education.",
+  "step2Title": "Amplify Impact",
+  "step2Description": "Help these groups get noticed and funded to grow their efforts.",
+  "step3Title": "Build Connections",
+  "step3Description": "Bring grassroots groups together to share ideas and grow stronger.",
   "learnMore": "Learn More",
   "reports": {
-    "title": "Share Your Village's Story",
-    "description": "Your reports help us understand why girls are missing school. Together, we can find solutions to improve enrollment across India.",
+    "title": "Share Your Story",
+    "description": "Your reports help us uncover why girls miss school and find solutions to improve education for all.",
     "form": {
       "place": "Place",
       "school_name": "School Name",
@@ -48,6 +48,8 @@
     "trendsOverTime": "Trends Over Time",
     "dropoutRatesByState": "Dropout Rates by State",
     "enrollmentRatesOverTime": "Enrollment Rates Over Time",
-    "girlsToBoysRatio": "Girls to Boys Ratio"
+    "girlsToBoysRatio": "Girls to Boys Ratio",
+    "girlsData": "Girls",
+    "boysData": "Boys"
   }
 }

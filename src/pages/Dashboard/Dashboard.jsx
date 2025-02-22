@@ -144,12 +144,12 @@ const Dashboard = () => {
     labels: data.genderRatio.map((ratio) => ratio.school),
     datasets: [
       {
-        label: t("dashboard.girlsToBoysRatio"), 
+        label: t("dashboard.girlsData"), 
         data: data.genderRatio.map((ratio) => ratio.girls),
         backgroundColor: "rgba(255, 99, 132, 0.5)",
       },
       {
-        label: t("dashboard.girlsToBoysRatio"), 
+        label: t("dashboard.boysData"), 
         data: data.genderRatio.map((ratio) => ratio.boys),
         backgroundColor: "rgba(54, 162, 235, 0.5)",
       },
