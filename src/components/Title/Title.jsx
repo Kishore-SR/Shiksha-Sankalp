@@ -23,7 +23,7 @@ export const Title = () => {
       <div className="home-title">
         <div className="title-flex">
           <img src="/logo.svg" alt="Logo" className="logo" />
-          <span className="title">{t("appTitle")}</span> 
+          <span className="title">{t("appTitle")}</span>
         </div>
 
         <div className="language-dropdown lang-mobile">
@@ -34,6 +34,9 @@ export const Title = () => {
             <option value="en">English</option>
             <option value="hi">हिंदी</option>
             <option value="kn">ಕನ್ನಡ</option>
+            <option value="te">తెలుగు</option>
+            <option value="ta">தமிழ்</option>
+            <option value="ml">മലയാളം</option>
           </select>
         </div>
       </div>
