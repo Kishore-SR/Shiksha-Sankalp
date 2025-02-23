@@ -51,5 +51,16 @@
     "girlsToBoysRatio": "Girls to Boys Ratio",
     "girlsData": "Girls",
     "boysData": "Boys"
+  },
+  "about": {
+    "title": "About Us",
+    "whoWeAre": "Who We Are",
+    "ourMission": "Our Mission",
+    "howWeWork": "How We Work",
+    "content": {
+      "whoWeAre": "<span class='highlight'>Shiksha Sankalp</span> is a platform dedicated to empowering grassroots education initiatives. Our mission is to document and amplify the efforts of <span class='highlight'>women’s collectives</span> working tirelessly to improve education equity for young girls.",
+      "ourMission": "We aim to provide <span class='highlight'>visibility</span> to these initiatives, enabling governments, NGOs, and donors to recognize and support their work. By creating a structured database of issues and solutions, we help scale successful interventions and foster collaboration among grassroots groups.",
+      "howWeWork": "Through our platform, users can <span class='highlight'>join sessions</span>, discuss challenges, and submit reports documenting issues and solutions. Our dashboard provides insights into common problems, proposed solutions, and trends over time, making it easier for stakeholders to take action."
+    }
   }
 }
