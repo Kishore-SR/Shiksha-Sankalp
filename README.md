@@ -14,7 +14,7 @@ Our project, **Shiksha Sankalp**, provides a platform to record, analyze and sca
 [![Project Link](https://img.shields.io/badge/Project%20Link-37a779?style=for-the-badge)](https://shikshasankalp.vercel.app/)  &nbsp; 
 [![Hackathon VIDEO](https://img.shields.io/badge/Demo%20VIDEO-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/)  
 
-## Features of the Project
+## Features 
 
 - 🎥 **Video Conferencing**: Real-time discussions powered by Jitsi Meet with automatic recording.
 - 📝 **Reporting Framework**: Users can submit reports on discussed issues and solutions.
