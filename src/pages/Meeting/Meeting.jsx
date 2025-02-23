@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom'; 
 import './Meeting.css';
+import { Title } from '../../components/Title/Title';
 
 const Meeting = ({ roomName = 'ShikshaSankalpDefault', userName = 'User' }) => {
   const jitsiContainerRef = useRef(null);
@@ -117,9 +118,12 @@ const Meeting = ({ roomName = 'ShikshaSankalpDefault', userName = 'User' }) => {
   };
 
   return (
+    <>
+    <Title />
     <div className="video-conference-container">
       <div className="video-conference" ref={jitsiContainerRef}></div>
     </div>
+    </>
   );
 };
 
