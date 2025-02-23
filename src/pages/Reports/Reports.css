@@ -45,7 +45,7 @@
 .feedback-form button {
   padding: 0.6rem;
   width: 30%;
-  margin:auto;
+  margin: auto;
   background-color: #28a745;
   color: white;
   border: none;
@@ -101,7 +101,39 @@
   color: #333;
   margin-right: 0.5rem;
 }
+.download-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
 
+.download-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.download-button:hover {
+  background-color: #1467c0;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.download-button:active {
+  background-color: #358deb;
+  transform: translateY(0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 /* Responsive adjustments */
 @media (max-width: 1024px) {
   .reports-grid {
@@ -133,5 +165,9 @@
   }
   .feedback-form button {
     width: 40%;
+  }
+  .download-button-container {
+    margin-top: -20%;
+    margin-bottom: 26%;
   }
 }

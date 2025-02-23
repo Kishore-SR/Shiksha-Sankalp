@@ -38,7 +38,8 @@
     "misbehavior_issue": "Misbehavior by teachers towards girls is a major concern.",
     "misbehavior_solution": "We have initiated teacher training programs to promote gender sensitivity and respectful behavior.",
     "relationship_issue": "Inappropriate relationships between boys and girls are causing problems.",
-    "relationship_solution": "We have started awareness programs for students and parents."
+    "relationship_solution": "We have started awareness programs for students and parents.",
+    "download_report": "Download Report"
   },
   "dashboard": {
     "title": "Data Dashboard",
