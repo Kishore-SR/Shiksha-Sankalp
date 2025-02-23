@@ -2,14 +2,14 @@
 
 ## About Hackathon
 
-This project was developed as part of the **Innovation 4 Education Equity Hackathon**, organized by ShikshaLokam under the **Shikshagraha** movement. The hackathon aims to uplift 1 million public schools by 2030 through localized action, collective leadership and systemic change.
+This project was developed as part of the **Innovation 4 Education Equity Hackathon**, organized by *`Shiksha Lokam`* under the **Shikshagraha** movement. The hackathon aims to uplift 1 million public schools by 2030 through localized action, collective leadership and systemic change.
 
 ## Theme
 
 We chose **Theme 2: "Shiksha Chaupal - Understanding the Stories from the Ground"**. This theme focuses on documenting and empowering grassroots education initiatives led by women’s collectives, which play a crucial role in improving education equity.
 
 `Shiksha Sankalp - A Commitment to Education`  
-Our project, **Shiksha Sankalp**, provides a platform to record, analyze and scale these efforts.
+Our project **Shiksha Sankalp**, provides a platform to record, analyze and scale these efforts.
 
 [![Project Link](https://img.shields.io/badge/Project%20Link-37a779?style=for-the-badge)](https://shikshasankalp.vercel.app/)  &nbsp; 
 [![Hackathon VIDEO](https://img.shields.io/badge/Demo%20VIDEO-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/)  
@@ -34,7 +34,7 @@ Our project, **Shiksha Sankalp**, provides a platform to record, analyze and sca
 - **Chart.js**: Interactive charts on the dashboard
 - **Jitsi Meet**: Video conferencing and recording
 
-## Steps to Run the Project Locally
+## Installation Steps
 
 1. Clone the repository:
    ```sh
@@ -47,7 +47,7 @@ Our project, **Shiksha Sankalp**, provides a platform to record, analyze and sca
    ```sh
    npm install
    ```
-3. Create a `.env` file in the root directory and add the following API keys:
+3. Create `.env` file in the root directory and add the following API keys:
 
    ```sh
    VITE_CLERK_PUBLISHABLE_KEY=XXXX
@@ -55,8 +55,7 @@ Our project, **Shiksha Sankalp**, provides a platform to record, analyze and sca
    VITE_SUPABASE_URL=XXXX
    VITE_SUPABASE_ANON_KEY=XXXX
    ```
-   **Note:** Get your Clerk API keys from the **[Clerk Dashboard](https://clerk.dev/)** and Supabase keys from the **[Supabase Dashboard](https://supabase.com/)**.
-
+   ###### **Note:** Get your Clerk API keys from the **[Clerk Dashboard](https://clerk.dev/)** and Supabase keys from the **[Supabase Dashboard](https://supabase.com/)**.
 
 4. Run the project:
    ```sh
@@ -69,4 +68,4 @@ Our project, **Shiksha Sankalp**, provides a platform to record, analyze and sca
 [![Kishore S R](https://img.shields.io/badge/kishore%20s%20r-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Kishore-SR) &nbsp;
 [![Harshavardhan M](https://img.shields.io/badge/harshavardhan%20m-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harshavardhan-md/) &nbsp;
 [![Hitesh P](https://img.shields.io/badge/hitesh%20p-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hitesh-p-aa55662a3) &nbsp;
-[![Jeevan N](https://img.shields.io/badge/jeevan%20n-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeevan-n-39a5652a3p)
+[![Jeevan N](https://img.shields.io/badge/jeevan%20n-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeevan-n-39a5652a3/)
