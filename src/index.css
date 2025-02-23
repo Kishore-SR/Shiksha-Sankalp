@@ -26,15 +26,3 @@ button, a {
   outline: none;
   box-shadow: none;
 }
-
-::-webkit-scrollbar {
-  display: none;
-}
-
-html {
-  scrollbar-width: none;
-}
-
-body {
-  -ms-overflow-style: none;
-}
